@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import images from "../../constants/images";
-import "./Navbar.css";
 import { menulist } from "../../constants/data";
 // import { FaBars, FaTimes } from "react-icons/fa";
 

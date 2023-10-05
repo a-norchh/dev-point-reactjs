@@ -1,0 +1,30 @@
+button {
+  cursor: pointer;
+  outline: 0;
+  border: none;
+  background-color: transparent;
+  font-family: inherit;
+  font-size: 1.8rem;
+}
+
+.btn {
+  display: inline-block;
+  min-height: 54px;
+  line-height: 54px;
+  padding: 0 4.7rem;
+  color: var(--white-color);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.7rem;
+  font-weight: 500;
+  transition: var(--transition);
+  border-radius: 8px;
+}
+
+.btn__blue {
+  background-color: var(--robin-blue-color);
+}
+
+.btn__blue:hover {
+  background-color: #18a09b;
+}

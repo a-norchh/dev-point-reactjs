@@ -1,4 +1,5 @@
-import "./App.css";
+import "./styles/main.scss";
+
 import Navbar from "./sections/Navbar/Navbar";
 import Hero from "./sections/Hero/Hero";
 import About from "./sections/About/About";

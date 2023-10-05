@@ -1,0 +1,34 @@
+.para__text {
+  line-height: 1.7;
+  font-weight: 300;
+  opacity: 0.95;
+  letter-spacing: 1px;
+}
+
+.text__center {
+  text-align: center;
+}
+
+.text__upper {
+  text-transform: uppercase;
+}
+
+.text__cap {
+  text-transform: capitalize;
+}
+
+.text__blue {
+  color: var(--robin-blue-color);
+}
+
+.text__dark {
+  color: var(--black-color);
+}
+
+.text__light {
+  color: var(--white-color);
+}
+
+.text__grey {
+  color: var(--grey-color);
+}
