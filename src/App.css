@@ -1,38 +1,77 @@
-.App {
+.container {
+  max-width: 1177px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* section */
+.section__title {
+  margin-bottom: 4rem;
+  color: var(--black-color);
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 4rem;
+}
+
+.section__padding {
+  padding: 10rem 0;
+}
+
+/* texts and paras */
+.para__text {
+  line-height: 1.7;
+  font-weight: 300;
+  opacity: 0.95;
+  letter-spacing: 1px;
+}
+
+.text__center {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text__upper {
+  text-transform: uppercase;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text__cap {
+  text-transform: capitalize;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text__blue {
+  color: var(--robin-blue-color);
 }
 
-.App-link {
-  color: #61dafb;
+.text__dark {
+  color: var(--black-color);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text__light {
+  color: var(--white-color);
+}
+
+.text__grey {
+  color: var(--grey-color);
+}
+
+/* btns */
+.btn {
+  display: inline-block;
+  min-height: 54px;
+  line-height: 54px;
+  padding: 0 4.7rem;
+  color: var(--white-color);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.7rem;
+  font-weight: 500;
+  transition: var(--transition);
+  border-radius: 8px;
+}
+
+.btn__blue {
+  background-color: var(--robin-blue-color);
+}
+
+.btn__blue:hover {
+  background-color: #18a09b;
 }

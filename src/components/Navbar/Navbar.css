@@ -1,0 +1,25 @@
+.navbar {
+  position: absolute;
+  width: 100%;
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  padding: 2.5rem 0;
+}
+
+.navbar__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__logo img {
+  width: 150px;
+}
+
+.navbar__menu__list {
+  display: flex;
+  gap: 3rem;
+}
+
+.navbar__menu__list li:hover {
+  color: var(--robin-blue-color);
+}
