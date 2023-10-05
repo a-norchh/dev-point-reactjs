@@ -1,13 +1,14 @@
 import "./App.css";
-import Navbar from "./components/Navbar/Navbar";
-import Hero from "./components/Hero/Hero";
+import Navbar from "./sections/Navbar/Navbar";
+import Hero from "./sections/Hero/Hero";
+import About from "./sections/About/About";
 
 function App() {
   return (
     <>
       <Navbar />
       <Hero />
-      <div>About Us</div>
+      <About />
       <div>Professional</div>
       <div>Work</div>
       <div>Gallery</div>
