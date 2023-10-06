@@ -1,5 +1,5 @@
 import "./styles/main.scss";
-import { Navbar, Hero, About, Skills, Works } from "./sections";
+import { Navbar, Hero, About, Skills, Works, Gallery } from "./sections";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <About />
       <Skills />
       <Works />
-      <div>Gallery</div>
+      <Gallery />
       <div>Process</div>
       <div>Services</div>
       <div>testimonials</div>

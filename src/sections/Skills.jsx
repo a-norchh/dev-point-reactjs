@@ -9,7 +9,7 @@ const Skills = () => {
         <div className="section__title">Professional Skills</div>
         <div className="skill-list">
           {skills.map((item) => (
-            <Skill title={item.title} value={item.value} />
+            <Skill key={item.title} title={item.title} value={item.value} />
           ))}
         </div>
       </div>

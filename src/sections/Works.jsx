@@ -9,12 +9,11 @@ const Works = () => {
         <div className="container">
           <div className="work-list">
             {stats.map((item) => (
-              <WorkItem details={item} />
+              <WorkItem key={item.title} details={item} />
             ))}
           </div>
         </div>
       </section>
-      ;
     </>
   );
 };

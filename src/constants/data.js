@@ -76,8 +76,8 @@ const stats = [
   },
 ];
 
-// works
-const works = [
+// gallery
+const gallery = [
   {
     img: `${images.work_1}`,
   },
@@ -168,4 +168,4 @@ const testimonials = [
   },
 ];
 
-export { menulist, skills, stats, works, services, testimonials };
+export { menulist, skills, stats, gallery, services, testimonials };

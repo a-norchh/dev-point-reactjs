@@ -1,0 +1,41 @@
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  @media only screen and (max-width: $mq-lg) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media only screen and (max-width: $mq-sm) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .item-contain {
+    position: relative;
+    cursor: pointer;
+
+    &:hover {
+      .item-overlay {
+        opacity: 1;
+      }
+    }
+  }
+
+  .item-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s;
+    background-color: rgba(0, 0, 0, 0.3);
+
+    img {
+      width: 5rem;
+    }
+  }
+}
