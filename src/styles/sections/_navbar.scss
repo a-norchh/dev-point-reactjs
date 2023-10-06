@@ -1,8 +1,11 @@
 .navbar {
-  position: absolute;
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
   padding: 2.5rem 0;
+  transition: all 0.3s;
+  z-index: 9;
 }
 
 .menu-btn {
@@ -37,6 +40,9 @@
 }
 
 .navbar__menu__list {
+  li {
+    transition: color 0.3s;
+  }
   li:hover {
     color: var(--robin-blue-color);
   }
@@ -51,7 +57,7 @@
   right: 0;
   z-index: 9;
   transition: all 0.3s;
-  transform: translateX(100%);
+  transform: translateX(120%);
   background-color: var(--robin-blue-color);
   box-shadow: -0.2rem 0 2rem rgba(0, 0, 0, 0.4);
 
@@ -83,3 +89,14 @@
     }
   }
 }
+
+// @media only screen and (min-width: $mq-lg) {
+.navbar.sticky {
+  background-color: var(--robin-blue-color);
+  box-shadow: -0.3rem 0.2rem 2rem rgba(0, 0, 0, 0.4);
+
+  li:hover {
+    color: var(--black-color);
+  }
+}
+// }

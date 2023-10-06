@@ -1,0 +1,11 @@
+#about .para__text {
+  padding: 0 12rem;
+  @media only screen and (max-width: $mq-sm) {
+    padding: 0 5rem 2rem;
+  }
+}
+
+.signature {
+  width: 26rem;
+  margin: 4rem auto 0;
+}

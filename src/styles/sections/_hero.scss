@@ -17,6 +17,16 @@
 .hero-contain__texts {
   width: 50%;
   color: var(--white-color);
+
+  @media only screen and (max-width: $mq-lg) {
+    width: 100%;
+    text-align: center;
+    padding: 10rem;
+  }
+
+  @media only screen and (max-width: $mq-sm) {
+    padding: 5rem;
+  }
 }
 
 .hero-contain__texts__title {

@@ -1,8 +1,5 @@
 import "./styles/main.scss";
-
-import Navbar from "./sections/Navbar/Navbar";
-import Hero from "./sections/Hero/Hero";
-import About from "./sections/About/About";
+import { Navbar, Hero, About, Skills, Works } from "./sections";
 
 function App() {
   return (
@@ -10,8 +7,8 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      <div>Professional</div>
-      <div>Work</div>
+      <Skills />
+      <Works />
       <div>Gallery</div>
       <div>Process</div>
       <div>Services</div>

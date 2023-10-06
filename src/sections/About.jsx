@@ -1,10 +1,10 @@
 import React from "react";
-import "./About.css";
+import images from "../constants/images";
 
 const About = () => {
   return (
     <>
-      <section id="aboutus" className="section__padding">
+      <section id="about" className="section__padding">
         <div className="container text__center">
           <div className="section__title">About Us</div>
           <p className="text__grey para__text">
@@ -14,6 +14,7 @@ const About = () => {
             velit in temporibus, architecto error possimus officiis minus sit
             ipsa eveniet.
           </p>
+          <img src={images.signature} alt="signature" className="signature" />
         </div>
       </section>
     </>

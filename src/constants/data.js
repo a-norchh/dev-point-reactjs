@@ -12,7 +12,7 @@ const menulist = [
   },
   {
     title: "work",
-    path: "#work",
+    path: "#works",
   },
   {
     title: "process",

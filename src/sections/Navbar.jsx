@@ -1,19 +1,34 @@
-import React, { useState } from "react";
-import images from "../../constants/images";
-import { menulist } from "../../constants/data";
+import React, { useState, useEffect } from "react";
+import images from "../constants/images";
+import { menulist } from "../constants/data";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+  const [stickyMenu, setStickyMenu] = useState(false);
 
   const menuToggleHandler = () => {
     setToggleMenu(!toggleMenu);
     console.log(toggleMenu);
   };
 
+  const stickyActive = () => {
+    if (window.scrollY > 0) {
+      setStickyMenu(true);
+    } else {
+      setStickyMenu(false);
+    }
+  };
+
+  useEffect(() => {
+    stickyActive();
+  }, []);
+
+  window.addEventListener("scroll", stickyActive);
+
   return (
     <>
-      <nav className="navbar">
+      <nav className={`navbar ${stickyMenu ? "sticky" : ""}`}>
         <div className="container navbar__container">
           <div className="navbar__logo">
             <a href="index.html">

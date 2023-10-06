@@ -1,0 +1,22 @@
+#works {
+  background-color: var(--robin-blue-color);
+}
+
+.work-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  @media only screen and (max-width: $mq-lg) {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 6rem;
+  }
+
+  @media only screen and (max-width: $mq-sm) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  //   column-gap: 2rem;
+  //   display: flex;
+  //   justify-content: space-between;
+  //   gap: 2rem;
+  //   flex-wrap: wrap;
+}
