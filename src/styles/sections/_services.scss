@@ -1,0 +1,53 @@
+#services {
+  background-color: var(--whitesmoke-color);
+
+  .services {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 4rem;
+    row-gap: 2rem;
+
+    @media only screen and (max-width: $mq-lg) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media only screen and (max-width: $mq-sm) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    &__item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 3rem 1rem;
+      border-radius: 1rem;
+      transition: all 0.2s;
+      cursor: default;
+
+      @media only screen and (max-width: $mq-lg) {
+        padding: 3rem 2rem;
+      }
+    }
+
+    &__icon,
+    &__title {
+      opacity: 0.7;
+    }
+
+    &__icon {
+      width: 60px;
+      margin-bottom: 1.5rem;
+    }
+
+    &__title {
+      font-weight: 600;
+      margin-bottom: 2rem;
+    }
+
+    &__description {
+      text-align: center;
+      color: var(--grey-color);
+    }
+  }
+}

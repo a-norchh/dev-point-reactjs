@@ -7,6 +7,7 @@ import {
   Works,
   Gallery,
   Process,
+  Services,
 } from "./sections";
 
 function App() {
@@ -19,9 +20,10 @@ function App() {
       <Works />
       <Gallery />
       <Process />
-      <div>Services</div>
-      <div>testimonials</div>
+      <Services />
+      <div>Testimonials</div>
       <div>Contact</div>
+      <div>Footer</div>
     </>
   );
 }

@@ -5,5 +5,6 @@ import Skills from "./Skills";
 import Works from "./Works";
 import Gallery from "./Gallery";
 import Process from "./Process";
+import Services from "./Services";
 
-export { Navbar, Hero, About, Skills, Works, Gallery, Process };
+export { Navbar, Hero, About, Skills, Works, Gallery, Process, Services };
