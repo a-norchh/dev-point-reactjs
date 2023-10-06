@@ -1,5 +1,13 @@
 import "./styles/main.scss";
-import { Navbar, Hero, About, Skills, Works, Gallery } from "./sections";
+import {
+  Navbar,
+  Hero,
+  About,
+  Skills,
+  Works,
+  Gallery,
+  Process,
+} from "./sections";
 
 function App() {
   return (
@@ -10,7 +18,7 @@ function App() {
       <Skills />
       <Works />
       <Gallery />
-      <div>Process</div>
+      <Process />
       <div>Services</div>
       <div>testimonials</div>
       <div>Contact</div>
