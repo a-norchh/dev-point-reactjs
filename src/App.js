@@ -8,6 +8,7 @@ import {
   Gallery,
   Process,
   Services,
+  Testimonial,
 } from "./sections";
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
       <Gallery />
       <Process />
       <Services />
-      <div>Testimonials</div>
+      <Testimonial />
       <div>Contact</div>
       <div>Footer</div>
     </>

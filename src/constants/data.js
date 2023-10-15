@@ -24,7 +24,7 @@ const menulist = [
   },
   {
     title: "testimonials",
-    path: "#testimonials",
+    path: "#testimonial",
   },
   {
     title: "contact",

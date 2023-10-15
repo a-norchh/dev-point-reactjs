@@ -6,5 +6,16 @@ import Works from "./Works";
 import Gallery from "./Gallery";
 import Process from "./Process";
 import Services from "./Services";
+import Testimonial from "./Testimonial";
 
-export { Navbar, Hero, About, Skills, Works, Gallery, Process, Services };
+export {
+  Navbar,
+  Hero,
+  About,
+  Skills,
+  Works,
+  Gallery,
+  Process,
+  Services,
+  Testimonial,
+};
