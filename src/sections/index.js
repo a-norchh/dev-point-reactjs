@@ -7,6 +7,7 @@ import Gallery from "./Gallery";
 import Process from "./Process";
 import Services from "./Services";
 import Testimonial from "./Testimonial";
+import Contact from "./Contact";
 
 export {
   Navbar,
@@ -18,4 +19,5 @@ export {
   Process,
   Services,
   Testimonial,
+  Contact,
 };

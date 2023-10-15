@@ -1,0 +1,28 @@
+#contact {
+  background-color: var(--whitesmoke-color);
+  .para__text {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .form {
+    max-width: 680px;
+    margin: 3.6rem auto 0;
+
+    .btn {
+      margin-top: 2rem;
+    }
+  }
+
+  .form__elem {
+    &--1 {
+      display: grid;
+      column-gap: 3.2rem;
+      grid-template-columns: repeat(2, 1fr);
+
+      @media only screen and (max-width: $mq-sm) {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+  }
+}

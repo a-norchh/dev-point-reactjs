@@ -9,6 +9,7 @@ import {
   Process,
   Services,
   Testimonial,
+  Contact,
 } from "./sections";
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
       <Process />
       <Services />
       <Testimonial />
-      <div>Contact</div>
+      <Contact />
       <div>Footer</div>
     </>
   );
