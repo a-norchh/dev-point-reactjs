@@ -10,6 +10,7 @@ import {
   Services,
   Testimonial,
   Contact,
+  Footer,
 } from "./sections";
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
       <Services />
       <Testimonial />
       <Contact />
-      <div>Footer</div>
+      <Footer />
     </>
   );
 }

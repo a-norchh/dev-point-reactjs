@@ -8,6 +8,7 @@ import Process from "./Process";
 import Services from "./Services";
 import Testimonial from "./Testimonial";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 export {
   Navbar,
@@ -20,4 +21,5 @@ export {
   Services,
   Testimonial,
   Contact,
+  Footer,
 };

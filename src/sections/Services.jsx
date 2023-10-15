@@ -7,7 +7,7 @@ const Services = () => {
       <div className="container">
         <div className="services">
           {services.map((item) => (
-            <div className="services__item">
+            <div key={item.title} className="services__item">
               <div className="services__icon">
                 <img src={item.img} alt="service icon" />
               </div>
