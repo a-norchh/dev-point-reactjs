@@ -1,11 +1,23 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const Hero = () => {
+  const animation = {
+    hidden: { opacity: 0, x: 100 },
+    visible: { opacity: 1, x: 0 },
+  };
+
   return (
     <>
       <section id="home">
         <div className="container hero-contain">
-          <div className="hero-contain__texts">
+          <motion.div
+            className="hero-contain__texts"
+            variants={animation}
+            initial="hidden"
+            animate="visible"
+            transition={{ duration: 0.5, delay: 0.5 }}
+          >
             <h1 className="hero-contain__texts__title">
               We Design and Develop
             </h1>
@@ -15,7 +27,7 @@ const Hero = () => {
               websites and mobile apps.
             </p>
             <button className="btn btn__blue">Contact Us</button>
-          </div>
+          </motion.div>
         </div>
       </section>
     </>

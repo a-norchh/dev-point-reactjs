@@ -47,10 +47,22 @@ const Footer = () => {
             <h3>Social Links</h3>
             <ul>
               <li>
-                <a href="#">Github</a>
+                <a
+                  href="https://github.com/a-norchh"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Github
+                </a>
               </li>
               <li>
-                <a href="#">LinkedIn</a>
+                <a
+                  href="https://www.linkedin.com/in/norawich-dechsiri/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  LinkedIn
+                </a>
               </li>
             </ul>
           </div>

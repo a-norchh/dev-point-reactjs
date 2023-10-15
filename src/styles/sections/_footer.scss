@@ -6,12 +6,20 @@
       display: grid;
       gap: 4rem;
       grid-template-columns: 2fr 2fr 1fr 1fr 1fr;
+
       @media only screen and (max-width: $mq-md) {
         text-align: center;
         grid-template-columns: repeat(2, 1fr);
       }
+
       @media only screen and (max-width: $mq-sm) {
         grid-template-columns: repeat(1, 1fr);
+      }
+
+      &--item:last-child {
+        a:hover {
+          color: var(--robin-blue-color);
+        }
       }
     }
   }
