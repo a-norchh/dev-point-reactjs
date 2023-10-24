@@ -7,7 +7,7 @@ This project is simple landing page. using React JS, SCSS and Framer-motion
 
 (credits: https://youtu.be/b1HiZvIlWQk?si=X6neZChcZ_kvIzvE)
 
-## Run project
+### Run project
 after you pull the project
 - npm install
 - npm run start
